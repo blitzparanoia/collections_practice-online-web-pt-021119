@@ -22,4 +22,4 @@ end
 def kesha_maker(name)
   name.each do |change|
     change[2]
-  end
+end
