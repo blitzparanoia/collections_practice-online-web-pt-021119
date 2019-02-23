@@ -28,4 +28,5 @@ end
 def find_a(words)
   words.each do |item|
     item.find = "a"
+  end
 end  
