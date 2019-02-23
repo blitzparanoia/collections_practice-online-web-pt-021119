@@ -32,5 +32,6 @@ def find_a(words)
 end  
 
 def sum_array(num)
+  sum = 0
   
 end  
