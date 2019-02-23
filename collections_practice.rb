@@ -30,3 +30,7 @@ def find_a(words)
     item[0] == "a"
   end
 end  
+
+def sum_array(num)
+  
+end  
