@@ -26,7 +26,7 @@ def kesha_maker(name)
 end
 
 def find_a(words)
-  words.each do |item|
+  words.find_all do |item|
     item.find = "a"
   end
 end  
