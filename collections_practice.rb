@@ -31,9 +31,9 @@ def find_a(words)
   end
 end  
 
-def sum_array(num)
+def sum_array(array)
   sum = 0
-  num.each do |number|
-    sum+=number
-end
-sum
+  array.each do |num|
+    sum+=num
+  end
+  sum
