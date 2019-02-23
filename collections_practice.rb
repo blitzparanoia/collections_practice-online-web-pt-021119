@@ -7,7 +7,6 @@ def sort_array_desc(num)
 end
 
 def sort_array_char_count(animals)
-  animals.sort do {|left,right|
-    left.length <=> right.length
+  animals.sort { |left,right| left.length <=> right.length }
   end
 end
