@@ -27,6 +27,6 @@ end
 
 def find_a(words)
   words.find_all do |item|
-    item.find = "a"
+    item[0] = "a"
   end
 end  
