@@ -9,3 +9,7 @@ end
 def sort_array_char_count(animals)
   animals.sort { |left,right| left.length <=> right.length }
 end
+
+def swap_elements(names)
+  
+end
